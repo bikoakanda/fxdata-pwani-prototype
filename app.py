@@ -10,7 +10,7 @@ def ai_wrapper(query):
         response = requests.post(
             url="https://openrouter.ai/api/v1/chat/completions",
             headers={
-                "Authorization": "Bearer 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",  # Replace with your actual key
+                "Authorization": "Bearer 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",  # Api key
                 "Content-Type": "application/json",
             },
             data=json.dumps({
