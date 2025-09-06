@@ -31,7 +31,7 @@ def ai_wrapper(query):
         return f"Error in API call: {str(e)}"
 
 # Streamlit App
-st.title("Prototype: Fxdata, Enterprise AI Hub")
+st.title("Prototype: Fxdata, Pwani AI Hub")
 
 tab1, tab2, tab3 = st.tabs(["Product Development", "Innovation", "Order Efficiency"])
 
